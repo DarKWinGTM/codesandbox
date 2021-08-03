@@ -1,0 +1,2 @@
+language = "nodejs"
+run = "while [ true ]; do git fetch --all; git reset --hard origin/master; git stash save ''; git pull; npm start; done"
